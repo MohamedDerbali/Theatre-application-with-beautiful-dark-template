@@ -1,0 +1,124 @@
+
+body{
+
+    background-image:url("../img/home.png") ;
+    background-repeat: no-repeat;
+    max-width:100%;
+    height:auto;
+    background-size:cover;
+    background-position:center;
+    color:white;
+    font-family: Bahnschrift;
+    font-weight: 400;
+}
+h2,h1{
+    color:white;
+    font-family: Bahnschrift;
+    font-weight: 400;
+
+}
+#icon{
+    height:250px;
+    width: 100px;
+}
+
+.user_card {
+
+    width: 500px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-image: url("../img/bb.jpg");
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
+.brand_logo_container {
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    top: -65px;
+
+    border-radius: 50%;
+    background: gray;
+    padding: 10px;
+    text-align: center;
+}
+.brand_logo {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid #8f8f8f;
+}
+.form_container {
+    margin-top: 100px;
+}.login_btn {
+     width: 350px;
+     height: 45px;
+     background: #8f8f8f !important;
+     color: black !important;
+ }
+.login_btn:focus {
+    box-shadow: white !important;
+    outline: 0px !important;
+    background-color:whitesmoke;
+}
+.login_container {
+    padding: 0 2rem;
+}
+
+.input_user{
+    border-color:whitesmoke;
+    border-left:none;
+    padding: 15px;
+    background-color: black;
+    box-shadow: none !important;
+    outline: 0px !important;
+    width: 100%;
+    height: 45px;
+}
+.input_user:focus{
+    border: 2px solid black;
+    padding: 26px;
+    background-color: white;
+}
+.input_pass:focus {
+    padding: 26px;
+    background-color: white;
+    box-shadow: none !important;
+    outline: 0px !important;
+
+    border: 2px solid black;
+}
+.icon {margin-left :-20px;
+    border-top:1px whitesmoke solid;
+    border-left:1px whitesmoke solid;
+    border-bottom:1px whitesmoke solid;
+    padding: 13px;
+    background-color:black;
+    color: #8f8f8f ;
+    min-width: 50px;
+    text-align: center;
+}
+.input_pass{
+    border-color:whitesmoke;
+    padding: 15px;
+    border-left:none;
+    background-color: black;
+    width: 100%;
+    height: 45px;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background-color: black !important;
+}
+@media screen and (max-width: 800px) {
+    .user_card {
+        width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}

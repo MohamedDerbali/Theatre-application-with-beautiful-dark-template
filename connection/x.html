@@ -1,0 +1,55 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Open Account Offer</title>
+    <meta name="description" content="Claim your Open Account Offer from the world&#x27;s favourite betting site." />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="robot" content="noindex, nofollow">
+
+    <style>
+        html, body {
+            padding: 0;
+            margin: 0;
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            background-color: #222;
+        }
+
+        iframe {
+            border: 0;
+            height: 0;
+            max-height: 100%;
+            max-width: 100%;
+            min-height: 100%;
+            min-width: 100%;
+        }
+
+        .c-landingpage__frame-wrapper {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: #222;
+        }
+
+        .c-landingpage__frame-wrapper--mobile {
+            overflow: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+    </style>
+</head>
+<body>
+    <div class="c-landingpage__frame-wrapper ">
+        <iframe id="olpc" src="/olpc/en/189/0/1/open-account" data-ctid="189" data-cst="0" data-platform="Desktop"></iframe>
+    </div>
+    <script>
+        document.getElementById("olpc").setAttribute("data-pstkpresent",!!(document.cookie.indexOf("pstk") > -1));
+    </script>
+    
+</body>
+</html>

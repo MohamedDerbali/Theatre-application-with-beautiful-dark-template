@@ -1,0 +1,143 @@
+
+.user_card {
+
+    height: 400px;
+    width: 500px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-image: url("../img/bb.jpg");
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+
+}
+.brand_logo_container {
+    position: absolute;
+    height: 170px;
+    width: 170px;
+    top: -75px;
+    border-radius: 50%;
+    background: gray;
+    padding: 10px;
+    text-align: center;
+}
+.brand_logo {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid #8f8f8f;
+}
+.form_container {
+    margin-top: 100px;
+}
+.login_btn {
+    width: 350px;
+    height: 45px;
+    background: #8f8f8f !important;
+    color: black !important;
+}
+.login_btn:focus {
+    box-shadow: white !important;
+    outline: 0px !important;
+    background-color:whitesmoke;
+}
+.login_container {
+    padding: 0 2rem;
+}
+
+.input_user{
+    border-color:whitesmoke;
+    border-left:none;
+    padding: 15px;
+    background-color: black;
+    box-shadow: none !important;
+    outline: 0px !important;
+    width: 200px;
+    height: 45px;
+}
+.input_user:focus{
+    border: 2px solid black;
+    padding: 26px;
+    background-color: white;
+}
+.input_pass:focus {
+    padding: 26px;
+    background-color: white;
+    box-shadow: none !important;
+    outline: 0px !important;
+    width: 200px;
+    height: 45px;
+    border: 2px solid black;
+}
+.icon {margin-left :-20px;
+    border-top:1px whitesmoke solid;
+    border-left:1px whitesmoke solid;
+    border-bottom:1px whitesmoke solid;
+    padding: 13px;
+    background-color:black;
+    color: #8f8f8f ;
+    min-width: 50px;
+    text-align: center;
+}
+.input_pass{
+    border-color:whitesmoke;
+    padding: 15px;
+    border-left:none;
+    background-color: black;
+    width: 200px;
+    height: 45px;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background-color: black !important;
+}
+@media screen and (max-width: 800px) {
+    .user_card {
+        width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}

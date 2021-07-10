@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="33db3acb-feed-4a81-a763-374edf360680" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/twilio/sdk" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1VLh4rlBOuDEPyUgXUJOIYQrvi5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\Theatre" />
+      <recent name="C:\wamp64\www\Theatre\assets\img" />
+      <recent name="C:\wamp64\www\Theatre\assets\css" />
+      <recent name="C:\wamp64\www\Theatre\core" />
+      <recent name="C:\wamp64\www\Theatre\entities" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\Theatre" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="33db3acb-feed-4a81-a763-374edf360680" name="Default Changelist" comment="" />
+      <created>1577038094472</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577038094472</updated>
+      <workItem from="1577038097174" duration="898000" />
+      <workItem from="1577196911703" duration="97937000" />
+      <workItem from="1577781944600" duration="10127000" />
+      <workItem from="1578494494420" duration="8747000" />
+      <workItem from="1578607045662" duration="695000" />
+      <workItem from="1579202501197" duration="7872000" />
+      <workItem from="1579300428409" duration="7235000" />
+      <workItem from="1579380221085" duration="1318000" />
+      <workItem from="1579452877380" duration="16399000" />
+      <workItem from="1579570525770" duration="1248000" />
+      <workItem from="1579856225369" duration="39000" />
+      <workItem from="1580406116650" duration="7102000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="562" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1579213374379">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="562" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1579213374379" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1577228285832">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1577228285832" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1579856232515">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1579856232515" />
+    <state x="604" y="335" key="NewPhpFileDialog" timestamp="1577582408983">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="604" y="335" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1577582408983" />
+    <state width="254" height="198" key="RunAnythingAction_Filter_Popup" timestamp="1577038204937">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="254" height="198" key="RunAnythingAction_Filter_Popup/0.0.1536.824@0.0.1536.824" timestamp="1577038204937" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1579467730403">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1579467730403" />
+    <state x="470" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1579856225419">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="470" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1579856225419" />
+    <state x="298" y="540" key="run.anything.popup" timestamp="1579300727923">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="298" y="540" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1579300727923" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1577240862925">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="94" y="-2" key="search.everywhere.popup.inPresentationMode" timestamp="1577038306203">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="94" y="-2" key="search.everywhere.popup.inPresentationMode/0.0.1536.824@0.0.1536.824" timestamp="1577038306203" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1577240862925" />
+  </component>
+</project>

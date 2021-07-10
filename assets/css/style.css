@@ -1,0 +1,354 @@
+body{
+
+    background-image:url("../img/home.png") ;
+    background-repeat: no-repeat;
+
+    max-width:100%;
+    height:auto;
+    background-size:cover;
+    background-position:center;
+    color:white;
+    font-family: Bahnschrift;
+    font-weight: 400;
+}
+h2,h1,a{
+    color:white;
+    font-family: Bahnschrift;
+    font-weight: 400;
+
+}
+#icon{
+    height:250px;
+    width: 100px;
+}.topnav {
+    padding-left: 250px;
+     overflow: hidden;
+
+ }
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#navigation:hover {
+    background-color: #ddd;
+    color: black;
+}
+.topnav a.active {
+
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;
+    padding-left: 0px;}
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+#mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://github.com/gokercebeci/flipclock/raw/master/css/mask.png');
+    z-index: 2;
+}
+h1 {
+    margin: 0 10px;
+    font-size: 70px;
+    font-weight: bold;
+    text-shadow: 0 0 2px #fff;
+}
+.clearfix {
+    clear: both;
+}
+#page {
+    margin: 0 auto;
+    width: 600px;
+}
+#container {
+    opacity: .9;
+}
+#usage li {
+    position: relative;
+    margin: 5px 0;
+    padding: 10px;
+    color: #222;
+    background: #fff;
+}
+#usage code {
+    position: absolute;
+    top:0;
+    right:0;
+    padding: 10px;
+    color: #eee;
+    border: 1px solid #333;
+    background: #000;
+}
+
+/*
+ * flipclock
+ * Version: 1.0.0
+ * Authors: @gokercebeci
+ * Licensed under the MIT license
+ * Demo: http://
+*/
+
+/*==============================================================================
+    FLIP CLOCK
+==============================================================================*/
+.flipclock {
+}
+.flipclock hr {
+    position: absolute;
+    left: 0;
+    top: 65px;
+    width: 100%;
+    height: 3px;
+    border: 0;
+    background: #000;
+    z-index: 10;
+    opacity: 0;
+}
+ul.flip {
+    position: relative;
+    float: left;
+    margin: 10px;
+    padding: 0;
+    width: 180px;
+    height: 130px;
+    font-size: 120px;
+    font-weight: bold;
+    line-height: 127px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .7);
+}
+
+ul.flip li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 49%;
+    height: 100%;
+    -webkit-perspective: 200px;
+    list-style: none;
+}
+
+ul.flip li.d1 {
+    float: right;
+}
+
+ul.flip li section {
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+ul.flip li section:first-child {
+    z-index: 2;
+}
+
+ul.flip li div {
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 49%;
+    overflow: hidden;
+}
+
+ul.flip li div .shadow {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+ul.flip li div.up {
+    -webkit-transform-origin: 50% 100%;
+    top: 0;
+}ul.flip li div.up:after {
+     background-color: rgba(0,0,0,.4);
+ }
+
+
+ul.flip li div.down {
+    -webkit-transform-origin: 50% 0%;
+    bottom: 0;
+}
+
+ul.flip li div div.inn {
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 200%;
+    color: #fff;
+    text-shadow: 0 0 2px #fff;
+    text-align: center;
+
+    border-radius: 6px;
+   background-color:#6c6c6c;
+}
+
+ul.flip li div.up div.inn {
+    top: 0;
+
+}
+
+ul.flip li div.down div.inn {
+    bottom: 0;
+}
+
+/*--------------------------------------
+ PLAY
+--------------------------------------*/
+
+body.play ul section.ready {
+    z-index: 3;
+}
+
+body.play ul section.active {
+    -webkit-animation: index .5s .5s linear both;
+    z-index: 2;
+}
+
+@-webkit-keyframes index {
+    0% {
+        z-index: 2;
+    }
+    5% {
+        z-index: 4;
+    }
+    100% {
+        z-index: 4;
+    }
+}
+
+body.play ul section.active .down {
+    z-index: 2;
+    -webkit-animation: flipdown .5s .5s linear both;
+}
+
+@-webkit-keyframes flipdown {
+    0% {
+        -webkit-transform: rotateX(90deg);
+    }
+    80% {
+        -webkit-transform: rotateX(5deg);
+    }
+    90% {
+        -webkit-transform: rotateX(15deg);
+    }
+    100% {
+        -webkit-transform: rotateX(0deg);
+    }
+}
+
+body.play ul section.ready .up {
+    z-index: 2;
+    -webkit-animation: flipup .5s linear both;
+}
+
+@-webkit-keyframes flipup {
+    0% {
+        -webkit-transform: rotateX(0deg);
+    }
+    90% {
+        -webkit-transform: rotateX(0deg);
+    }
+    100% {
+        -webkit-transform: rotateX(-90deg);
+    }
+}
+
+/*--------------------------------------
+ SHADOW
+--------------------------------------*/
+
+body.play ul section.ready .up .shadow {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, .1)), color-stop(100%, rgba(0, 0, 0, 1)));
+    background: linear-gradient(top, rgba(0, 0, 0, .1) 0%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .1) 0%, rgba(0, 0, 0, 1) 100%);
+    -webkit-animation: show .5s linear both;
+}
+
+body.play ul section.active .up .shadow {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, .1)), color-stop(100%, rgba(0, 0, 0, 1)));
+    background: linear-gradient(top, rgba(0, 0, 0, .1) 0%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .1) 0%, rgba(0, 0, 0, 1) 100%);
+    -webkit-animation: hide .5s .3s linear both;
+}
+
+/*DOWN*/
+
+body.play ul section.ready .down .shadow {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 1)), color-stop(100%, rgba(0, 0, 0, .1)));
+    background: linear-gradient(top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, .1) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, .1) 100%);
+    -webkit-animation: show .5s linear both;
+}
+
+body.play ul section.active .down .shadow {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 1)), color-stop(100%, rgba(0, 0, 0, .1)));
+    background: linear-gradient(top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, .1) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, .1) 100%);
+    -webkit-animation: hide .5s .3s linear both;
+}
+
+@-webkit-keyframes show {
+    0% {
+        opacity: 0;
+    }
+    90% {
+        opacity: .10;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes hide {
+    0% {
+        opacity: 1;
+    }
+    80% {
+        opacity: .20;
+    }
+    100% {
+        opacity: 0;
+    }
+}
